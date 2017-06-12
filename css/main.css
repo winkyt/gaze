@@ -175,7 +175,8 @@ h5{
 p{
     font-size: 30px;
     display: inline;
-    color:black
+    color:black;
+    line-height: 40px;
 }
 
 .end{
