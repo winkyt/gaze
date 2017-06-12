@@ -284,13 +284,13 @@
 				<p>To understand the context of spoofed check-ins at Standing Rock, we crawled 1,858 spoofed check-ins. The word cloud illustrates all the relevant topics around the keyword "Standing Rock", and the map shows the spatial distribution of all spoofed check-ins.
 				</p><br/><br/>
 				<div class="legend legend-custom">
-					<p><span style="position:absolute; left:5px"># Check-in per Hexagon: low</span>
-						<i style="background: rgb(255,255,178);margin-right: 0px; position:absolute; left:220px"></i>
-						<i style="background: rgb(254,204,92);margin-right: 0px; position:absolute; left:238px"></i>
-						<i style="background: rgb(253,141,60);margin-right: 0px; position:absolute; left:256px"></i>
-						<i style="background: rgb(240,59,32);margin-right: 0px; position:absolute; left:274px"></i>
-						<i style="background: rgb(189,0,38);margin-right: 0px; position:absolute; left:292px"></i>
-						<span style="position:absolute; left:1000px" >high</span></p>
+					<p><span style="position:absolute; left:5px"># Check-in per Hexagon:</br> low</span></br>
+						<i style="background: rgb(255,255,178);margin-right: 0px; position:absolute; left:60px"></i>
+						<i style="background: rgb(254,204,92);margin-right: 0px; position:absolute; left:76px"></i>
+						<i style="background: rgb(253,141,60);margin-right: 0px; position:absolute; left:92px"></i>
+						<i style="background: rgb(240,59,32);margin-right: 0px; position:absolute; left:108px"></i>
+						<i style="background: rgb(189,0,38);margin-right: 0px; position:absolute; left:124px"></i>
+						<span style="position:absolute; left:152px" >high</span></p>
 				</div>
 				<br/> <br/>
 				<div id="cloud" />
@@ -649,7 +649,7 @@
     var scenes = {
         overview: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Home',position: 'fullpage'},
         checkin: {lat: 46.45, lng:-100.71, zoom: 7,name: 'Info',position: 'fullpage'},
-        map_intro: {lat: 46.45, lng:-103, zoom: 9,name: 'Standing Rock', layers:[ 'CartoDB_Positron', 'standingrock','PhotoLayers1']},
+        map_intro: {lat: 48.45, lng:-105, zoom: 9,name: 'Standing Rock', layers:[ 'CartoDB_Positron', 'standingrock','PhotoLayers1']},
         map_pipeline: {lat: 46.45, lng:-100.82, zoom: 11,name: 'Pipeline', layers:['standingrock', 'aquifer',  'rivermain','riverwhole', 'pipeline', 'PhotoLayers2','ND_marker1','SR_marker2']},
         map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Camps', layers:['standingrock','aquifer', 'rivermain','riverwhole', 'pipeline', 'camp_symbol','ND_marker1','SR_marker3', 'PhotoLayers3']},
         map_hex: {lat: 47, lng:-103.5, zoom: 9,name: 'Spoofed Check-ins', layers:['CartoDB_Positron','checkin_marker']},
