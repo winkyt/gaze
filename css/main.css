@@ -92,7 +92,7 @@
 }
 
 section p {
-    line-height: 32px;
+    line-height: 25px;
 }
 
 body {
@@ -175,8 +175,7 @@ h5{
 p{
     font-size: 30px;
     display: inline;
-    color:black;
-    line-height: 60px;
+    color:black
 }
 
 .end{
@@ -475,6 +474,8 @@ p{
 }
 
 
-
+.about{
+    font-size: 20px;
+}
 
 
