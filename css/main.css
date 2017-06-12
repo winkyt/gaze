@@ -64,7 +64,7 @@
     position: relative;
     background-color: transparent;
     width: 100%;
-    font-size: 30px !important;
+    font-size: 35px !important;
     color: transparent;
     font-family: 'Titillium Web', serif;
     box-shadow: none;
@@ -73,7 +73,7 @@
 
 .legend-custom p {
     line-height:30px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .legend-custom p i {
@@ -451,7 +451,7 @@ p{
 
 
 .point-legend {
-    font-size: 30px !important;
+    font-size: 40px !important;
 }
 
 .camp-icon-1{
