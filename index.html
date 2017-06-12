@@ -665,8 +665,8 @@
         scale:false,
         navwidget: true,
         createMap: function () {
-            // create a map in the "map" div, set the view to a given place and zoom
-            var map = L.map('map', {zoomControl: false, dragging: false, scrollWheelZoom: false,maxZoom: 14}).setView([44.1347254, -122.7411479], 7);
+            // create a map in the "map" div, set the view to a given place and zoom    dragging: false,
+            var map = L.map('map', {zoomControl: false,  scrollWheelZoom: false,maxZoom: 14}).setView([44.1347254, -122.7411479], 7);
             map.doubleClickZoom.disable();
 
             //test: returen lat lng
