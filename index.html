@@ -282,15 +282,15 @@
 
 			<section data-scene="map_hex_case2">
 				<p>To understand the context of spoofed check-ins at Standing Rock, we crawled 1,858 spoofed check-ins. The word cloud illustrates all the relevant topics around the keyword "Standing Rock", and the map shows the spatial distribution of all spoofed check-ins.
-				</p><br/> <br/>
+				</p><br/><br/>
 				<div class="legend legend-custom">
-					<p><span style="position:absolute; left:0px"># Check-in per Hexagon: low</span>
+					<p><span style="position:absolute; left:5px"># Check-in per Hexagon: low</span>
 						<i style="background: rgb(255,255,178);margin-right: 0px; position:absolute; left:220px"></i>
 						<i style="background: rgb(254,204,92);margin-right: 0px; position:absolute; left:238px"></i>
 						<i style="background: rgb(253,141,60);margin-right: 0px; position:absolute; left:256px"></i>
 						<i style="background: rgb(240,59,32);margin-right: 0px; position:absolute; left:274px"></i>
 						<i style="background: rgb(189,0,38);margin-right: 0px; position:absolute; left:292px"></i>
-						<span style="position:absolute; left:316px" >high</span></p>
+						<span style="position:absolute; left:1000px" >high</span></p>
 				</div>
 				<br/> <br/>
 				<div id="cloud" />
@@ -670,9 +670,9 @@
             map.doubleClickZoom.disable();
 
             //test: returen lat lng
-			/*map.on('click', function(e) {
+			map.on('click', function(e) {
 			 alert("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
-			 });*/
+			 });
 
             miniMap = new L.Control.GlobeMiniMap({
                 marker:'#B51E1E',
