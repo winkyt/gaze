@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72943d06-f437-4f27-a69e-1bab9c8b7b5e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="174" column="56" lean-forward="false" selection-start-line="174" selection-start-column="56" selection-end-line="174" selection-end-column="56" />
+            <state relative-caret-position="255">
+              <caret line="184" column="48" lean-forward="false" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1122">
-              <caret line="250" column="10" lean-forward="false" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="10" />
+            <state relative-caret-position="363">
+              <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -84,6 +84,11 @@
       <find>h4</find>
       <find>description</find>
       <find>linechart</find>
+      <find>h3</find>
+      <find>h3h3</find>
+      <find>p</find>
+      <find>p{</find>
+      <find>legend</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,8 +101,8 @@
         <option value="$PROJECT_DIR$/css/storymap.css" />
         <option value="$PROJECT_DIR$/assets/data.js" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -256,7 +261,7 @@
       <workItem from="1496688013840" duration="5372000" />
       <workItem from="1497025438205" duration="5641000" />
       <workItem from="1497287298331" duration="9338000" />
-      <workItem from="1497300205195" duration="2010000" />
+      <workItem from="1497300205195" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="j">
       <created>1496686147986</created>
@@ -377,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497302133850</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2017  1">
+      <created>1497302220460</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1497302220460</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23947000" />
+    <option name="totallyTimeSpent" value="24120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -798,18 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <caret line="250" column="10" lean-forward="false" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="174" column="56" lean-forward="false" selection-start-line="174" selection-start-column="56" selection-end-line="174" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="184" column="48" lean-forward="false" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -831,6 +835,14 @@
             <element signature="n#style#0;n#i#4;n#p#0;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1497302216399" expanded="false" signature="19285:19292" ph="×" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
